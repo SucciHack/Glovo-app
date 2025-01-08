@@ -126,13 +126,13 @@ nav .links img {
 
 .storesSection {
   background: white;
-  min-height: 30vh;
+  margin: auto 0;
 }
 .storesSection p {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: #4DA183;
 }
 .storesSection .store {
   display: grid;
@@ -152,13 +152,15 @@ nav .links img {
   font-size: 1rem;
   padding: 0.5rem;
   text-align: start;
-  margin-left: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
 }
 .storesSection .store .storeimg p span {
   font-size: small;
   color: gray;
+  margin-right: 0.5rem;
 }
 .storesSection .store .storeimg i {
   color: rgb(85, 215, 255);
@@ -179,7 +181,7 @@ nav .links img {
   grid-template-columns: repeat(auto-fit(minmax(300px, 1fr)));
   gap: 1rem;
   width: 95%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .linkSection a {
   text-decoration: none;
@@ -272,6 +274,7 @@ nav .links img {
 }
 .footer p {
   color: white;
+  font-size: small;
 }
 .footer .footerContent {
   font-weight: normal;
@@ -399,15 +402,20 @@ p {
   background: white;
   margin-bottom: 1rem;
   gap: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .allStore .store .storeimg {
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .allStore .store .storeimg img {
   width: 100%;
   display: block;
+  transition: 0.3s ease-in-out;
+}
+.allStore .store .storeimg :hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .allStore .store .storeimg p {
   margin-bottom: 1rem;

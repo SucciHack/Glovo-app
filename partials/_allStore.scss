@@ -8,13 +8,17 @@
         background: white;
         margin-bottom: 1rem;
         gap: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         .storeimg{
             border-radius: 10px;
             overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             img{
                 width: 100%;
                 display: block;
+                transition: .3s ease-in-out;
+            }:hover{
+                transform: scale(1.1);
+                transition: .3s ease-in-out;
             }
             p{
                 margin-bottom: 1rem;
