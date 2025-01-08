@@ -1,0 +1,26 @@
+.linkSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit(minmax(300px, 1fr)));
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+        color: black;
+        background: #FCF3DA;
+        font-weight: bold;
+    }  
+    @media (max-width:480px) {
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+        a{
+            padding: .5rem 1rem;
+            border-radius: 3rem;
+            font-size: small;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}

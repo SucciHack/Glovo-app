@@ -1,0 +1,29 @@
+nav{
+    background: #F3C142;
+    border-bottom:1px solid rgba(255, 255, 255, 0.568) ;
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        a:nth-last-of-type(1){
+            text-decoration: none;
+            color: white;
+            background: #4DA183;
+            padding: .5rem 1rem;
+            border-radius: 2rem;
+            cursor: pointer;
+        }
+        img{
+            width: 100px;
+        }
+    }
+    @media (max-width:900px) {
+        .links{
+            a:nth-last-of-type(1){
+                padding: .5rem 1rem;
+                border-radius: 2rem;
+            }
+        }
+    }
+}
