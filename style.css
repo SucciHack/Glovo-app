@@ -174,18 +174,6 @@ nav .links img {
   }
 }
 
-.storesSection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 200px; /* Adjust as needed */
-  background: red;
-  -webkit-clip-path: ellipse(60% 100% at 50% 100%);
-          clip-path: ellipse(60% 100% at 50% 100%);
-  z-index: 10000;
-}
-
 .linkSection {
   display: grid;
   grid-template-columns: repeat(auto-fit(minmax(300px, 1fr)));
