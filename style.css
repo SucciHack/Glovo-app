@@ -49,7 +49,7 @@ nav .links img {
   flex-direction: column;
   background: #F3C142;
   position: relative;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 @media (max-width: 500px) {
   .heroSection {
